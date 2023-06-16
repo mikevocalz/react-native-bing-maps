@@ -30,7 +30,7 @@ android {
   compileSdkVersion getExtOrIntegerDefault('compileSdkVersion')
   buildToolsVersion getExtOrDefault('buildToolsVersion')
   defaultConfig {
-    minSdkVersion 16
+    minSdkVersion 21
     targetSdkVersion getExtOrIntegerDefault('targetSdkVersion')
     versionCode 1
     versionName "1.0"
@@ -57,7 +57,7 @@ android {
 repositories {
   mavenCentral()
   maven {
-      url   "https://microsoftmaps.jfrog.io/artifactory/Maven/"
+      url   "https://native.virtualearth.net/sdk/android/1.2.0/maps-sdk-1.2.0.aar"
   }
   jcenter()
   google()
